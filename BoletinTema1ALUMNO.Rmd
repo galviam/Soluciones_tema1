@@ -148,6 +148,8 @@ commonAnimals
 e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
 
 ```{r}
+commonAnimals <- intersect(r_m, r_a)
+commonAnimals
 
 
 
