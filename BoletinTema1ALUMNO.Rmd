@@ -217,7 +217,9 @@ length(libReturn$results[,1])
 # Apartado A
 nrow(cabbages)
 ncol(cabbages)
+str(cabbages)
 
+# Apartado B
 
 
 
