@@ -222,6 +222,11 @@ str(cabbages)
 # Apartado B
 is.na(cabbages)
 
+# Apartado C
+str(Chile)
+ncol(Chile)
+nrow(Chile)
+is.na(Chile)
 
 ```
 
