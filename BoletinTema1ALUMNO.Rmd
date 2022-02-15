@@ -107,6 +107,15 @@ head(Animals2)
 tail(Animals2)
 str(Animals2)
 
+# Apartado C
+name_m <- rownames(mammals)
+name_m
+colnames(mammals)
+
+name_a <- rownames(Animals2)
+name_a
+colnames(Animals2)
+
 
 
 
