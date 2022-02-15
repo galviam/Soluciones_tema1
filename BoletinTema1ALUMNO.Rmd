@@ -294,6 +294,15 @@ b.  Repite el apartado anterior, pero obteniendo un modelo para cada una de las 
 # Apartado A
 plot(cabbages$VitC ~ cabbages$HeadWt)
 
+# Apartado B
+plot(cabbages$VitC ~ cabbages$HeadWt, pch=c(1,18)[cabbages$Cult])
+
+Modeloc39<-lm(cabbages$VitC ~ cabbages$HeadWt, data=cabbages, subset=which(Cult=="c39"))
+abline(Modeloc39, lty=3)
+
+Modeloc52<-lm(cabbages$VitC ~ cabbages$HeadWt, data=cabbages, subset=which(Cult=="c52"))
+abline(Modeloc52)
+
 
 
 
