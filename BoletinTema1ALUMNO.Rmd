@@ -220,7 +220,7 @@ ncol(cabbages)
 str(cabbages)
 
 # Apartado B
-
+is.na(cabbages)
 
 
 ```
